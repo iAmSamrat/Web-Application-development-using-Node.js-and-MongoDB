@@ -1,0 +1,115 @@
+/* h1{
+    color: red;
+}
+p,li{
+    color:peru;
+} */
+
+/* .header1{
+    color: red
+}
+
+.header2{
+    color: blue;
+} */
+
+/* #head1{
+    color: red;
+} */
+
+/* Universal Selector  */
+/* /*{
+    background-color: blueviolet;
+} */
+
+/* Grouping Selectors --> h1,h2,p */
+
+/* Multiple Stylesheets */
+/* body{
+    background-color: black;
+} */
+
+/* Borders */
+/* .header1{
+    border: 5px solid rgb(255,45,120)
+} */
+
+/* Background Image  */
+/* body{
+    background-image: url("./assets/bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* CSS Margins  */
+/* .firstpara{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+} */
+
+/* CSS Margin VS CSS Padding  */
+/* .container{
+    background-color: coral;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
+/* CSS Height & Width  */
+/* .container{
+    background-color: aqua;
+    height: 300px;
+    width: 450px;
+    padding: 80px;
+} */
+
+/* Aligning texts  */
+/* .container h2:first-child{
+    color: red;
+    text-align: center;
+} */
+
+/* Transforming texts  */
+/* .firstpara{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* Letter Spacing and Word Spacing  */
+/* .firstpara{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+} */
+
+/* Line Heights  */
+/* Specifies the line height between the lines in the paragraph */
+/* .firstpara{
+    line-height: 1.8;
+} */
+
+/* Text Shadow  */
+/* .container h2:first-child{
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #a9a9a9a9;
+} */
+
+/* Font Weight */
+/* .firstpara{
+    font-weight: bold;
+} */
+
+/* Font-Variant  */
+/* .firstpara{
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 1px;
+} */
+
