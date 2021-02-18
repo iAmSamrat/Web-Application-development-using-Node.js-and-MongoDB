@@ -1,0 +1,205 @@
+/* /*{
+    margin: 0;
+    padding: 0;
+} */
+/* Link State  */
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+} */
+/* Text Decoration  */ 
+/* Cursor becomes pointer  */
+/* a:link{
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+/* Changing background color of links  */
+/* a:link{
+    color: blue;
+    background-color: orangered
+}
+a:hover{
+    color: aliceblue;
+    background-color: black;
+} */
+
+/* Lists design  */
+/* ul li{
+    list-style-type: square; 
+     circle 
+} */
+
+/* Height and Width of table  */
+/* Vertical & Horizontal Alignments  */
+/* table, th, td{
+    border: 1px solid black;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    vertical-align: top;
+} */
+/* Border Collapse */
+/* table{
+    border-collapse: collapse;
+} */
+/* .parent{
+    display: flex;
+}
+.div1{
+    height: 60px;
+    width: 50%;
+    background-color: blueviolet;
+}
+.div2{
+    height: 60px;
+    width: 50%;
+    background-color: chocolate;
+} */
+
+/* Differnece between Visibility : hidden and display: none  */
+/* .div1{
+    height: 60px;
+    width: 50%;
+    background-color: blueviolet;
+}
+.div2{
+    height: 60px;
+    width: 50%;
+    background-color: chocolate;
+} */
+
+/* width and max-width in css  */
+/* .testing{
+    background-color: blue;
+    height: 100px;
+    max-width: 600px;
+    width: 500px;
+} */
+
+/* Position sticky vs Position fixed  */
+/* .testing{
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+.extra{
+    height: 80px;
+    width: 80px;
+    background-color: blueviolet;
+} */
+
+/* Z-index  */
+/* .extra{
+    height: 80px;
+    width: 80px;
+    background-color: blueviolet;
+}
+.topdiv{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    z-index: 999;
+    position: sticky;
+    top:30px;
+}
+.testing{
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+    position: fixed;
+} */
+
+/* Making a div rounded  */
+/* .round{
+    background-color: blueviolet;
+    height: 80px;
+    width: 80px;
+    border-radius:  50%;
+} */
+
+/* Linear Gradient  */
+/* .linear{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right, white, #a9a9a9a9, grey, #333, black);
+    background: radial-gradient(white, #a9a9a9a9, grey, #333, black);
+    border-radius: 50%;
+} */
+
+/* Box Shadow  */
+/* .shadow{
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+    box-shadow: 5px 5px 0 red;
+} */
+
+/* CSS Transition */
+/* .expand{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.expand:hover{
+    background-color: blue;
+} */
+
+/* .animate{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change{
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: black;
+    }
+} */
+
+/* .respov{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+} */
+
+/* Extra Small devices -> max 600px */
+/* Mobiles 350px to 599px */
+/* Tabs 450px to 900px */
+/* Computer 901px to 1500px */
+/* Huge Screen: 1500px+ */
+
+/* @media only screen and (max-width: 600px){
+    .respov{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 700px){
+    .respov{
+        background-color: blueviolet;
+    }
+} */
