@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 of JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/">
+        <label for="fname">Write your password</label><br>
+        <input type="text" name="fname" id="fname" placeholder="Write your password" onmouseover="check()" onmouseout="uncheck()">
+        <input type="button" value="Submit" onclick="takename()">
+        <input type="button" value="Hide Password" onclick="hideshowpass()" id="pass">
+        <input type="button" value="Check Length" onclick="checklength()">
+    </form>
+    <div class="root"></div>
+    <script src="index.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>
