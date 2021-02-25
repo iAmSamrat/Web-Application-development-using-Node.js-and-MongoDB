@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>My TODOs x24</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" method="POST">
+            <fieldset>
+                <legend>Todo Web Application</legend>
+                <label for="todo">Enter the work</label><br>
+                <input type="text" name="todo" id="todo" placeholder="Enter work"><br>
+                <label for="date">Date for the work</label><br>
+                <input type="date" name="date" id="date"><br>
+                <input type="submit" value="Save" id="submit">
+            </fieldset>
+        </form>
+        <table>
+            <tr>
+                <th>My TODOs</th>
+                <th>Date for TODOs</th>
+                <th>Options</th>
+            </tr>
+            <% if (data[0]) { %>
+                <% for(i=0; i< data.length; i++) { %>
+                    <tr>
+                        <td><%= data[i].todo %></td>
+                        <td><%= data[i].date %></td>
+                        <td>
+                            <div class="btn">
+                                <form action="/update/<%= data[i]._id %>" method="POST">
+                                    <input type="submit" value="Update" class="upd">
+                                </form>
+                                <form action="/delete/<%= data[i]._id %>" method="POST">
+                                    <input type="submit" value="Delete" class="del">
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                <% } %>
+            <% } else { %>
+                <tr><td colspan="3"><h3 style="text-align: center;">Nothing to display.</h3></td></tr>
+            <% } %>
+        </table>
+    </div>
+</body>
+</html>

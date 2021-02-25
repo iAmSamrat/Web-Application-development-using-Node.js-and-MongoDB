@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>My TODOs x24</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/save-and-update/<%= data._id %>" method="POST">
+            <fieldset>
+                <legend>Todo Web Application</legend>
+                <label for="todo">Enter the work</label><br>
+                <input type="text" name="todo" id="todo" value="<%= data.todo %>"><br>
+                <label for="date">Date for the work</label><br>
+                <input type="date" name="date" id="date"  value="<%= data.date %>"><br>
+                <input type="submit" value="Update" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html> 
